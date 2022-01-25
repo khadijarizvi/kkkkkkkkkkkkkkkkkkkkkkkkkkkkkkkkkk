@@ -17,3 +17,8 @@ function setup(){
  ship.scale=0.3;
  ship.x=200;
 }
+
+function draw() {
+  background(1);
+  drawSprites();
+}
