@@ -11,11 +11,12 @@ function setup(){
  
  sea=createSprite(200,250,400,20);
  sea.addImage("flowing",sea_flowing);
+ sea.velocityX=-2
  sea.scale=0.4
  ship=createSprite(50,200,20,50);
  ship.addAnimation("moving",ship_moving);
  ship.scale=0.3;
- ship.x=200;
+ ship.x=120;
 }
 
 function draw() {
