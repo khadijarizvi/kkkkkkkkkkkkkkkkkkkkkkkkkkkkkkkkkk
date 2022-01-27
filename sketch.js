@@ -1,3 +1,4 @@
+
 var ship; var sea;
 var moving; var flowing;
 
@@ -15,6 +16,7 @@ function setup(){
  sea.scale=0.4
  ship=createSprite(50,200,20,50);
  ship.addAnimation("moving",ship_moving);
+ 
  ship.scale=0.3;
  ship.x=120;
 }
@@ -23,3 +25,4 @@ function draw() {
   background(1);
   drawSprites();
 }
+
